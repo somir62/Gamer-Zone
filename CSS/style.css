@@ -84,3 +84,12 @@ ul li a{
   
 }
 /* Tablet Devices */
+@media screen and (min-width: 576px) and ( max-width:992px) {
+   nav{
+      flex-direction: column;
+      align-items: center;
+   }
+   ul{
+      margin-top: 30px;
+   }
+}
