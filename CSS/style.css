@@ -1,0 +1,69 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Inter:wght@400;600;700;800&family=Lato:wght@400;700;900&family=Lobster&family=Open+Sans&family=Oswald&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+/* Share style */
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Work Sans', sans-serif;
+}
+.root{
+   --primary-font-size: 1.2rem;
+   --primary-color:  #FF42A5 ;
+   --title-font-size: 3rem;
+}
+
+/* Header Style */
+nav{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 0 auto;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+.logo{
+   display: flex;
+   align-items: center;
+
+}
+.logo img{
+   width: 86.041px;
+   height: 40px;
+   margin-right: 20px;
+}
+.logo h2{
+   font-size: 2.8rem;
+}
+.logo h2 span {
+   color: #FF42A5;
+}
+.follow-us-on img{
+   width: 33px;
+   height: 24px;
+}
+ul{
+   display: flex;
+   gap: 2em;
+   align-items: center;
+   justify-content: center;
+   font-weight: 500;
+   font-size: var(--primary-font-size);
+   
+}
+ul li {
+   text-decoration: none;
+   list-style: none;
+}
+ul li a{
+   text-decoration: none;
+   color: #3C354F;
+   
+}
+.follow-us-on{
+   display: flex;
+   gap: 10px;
+   border-radius: 8px;
+   background: rgba(11, 2, 35, 0.10);
+   padding: 18px;
+}
