@@ -135,10 +135,11 @@ ul li a{
    border: 0;
    gap: 20px;
 }
-.banner-imgs{
+.banner-img > img{
    display: flex;
    flex-direction: column;
    margin-right: 50px;
+   width: 35vw;
 }
 /* We are Gammer Section */
 .gammer-section{
@@ -194,10 +195,11 @@ ul li a{
    text-align: center;
 }
 .videos-container{
-   margin-top: 50px;
+   /* margin-top: 50px;
    margin-left: 240px;
-   margin-right: 240px;
+   margin-right: 240px; */
    display: flex;
+   justify-content: center;
    gap: 20px;
 }
 .video{
@@ -272,23 +274,30 @@ ul li a{
    .banner-content{
       margin-top: 30px;
    }
-   .banner-imgs{
-      margin: 0 auto;
-      align-items: center;
+   .banner-img > img {
+      width: 70vw;
+      margin-right: 0;
    }
    .gammer-container{
       flex-direction: column;
+      align-items: center;
+      width: 85%;
       background-color: white;
       margin: 0 auto;
-      text-align: center;
+      padding: 20px;
    }
    .gammer-content, .funny-videos-content {
       margin: 0 auto;
       text-align: center;
   }
+   .gammer-img > img{
+      width: 100%
+   }
+   }
+   
 
   
-}
+
 /* Tablet Devices */
 @media screen and (min-width: 576px) and ( max-width:992px) {
    nav{
@@ -304,16 +313,20 @@ ul li a{
    .banner-content{
       margin-top: 30px;
    }
-   .banner-imgs{
-      margin: 0 auto;
-      align-items: center;
+   .banner-img {
+      width: 100%;
+      margin-right: 0; 
    }
    .gammer-container{
       flex-direction: column;
+      align-items: center;
+      width: 90%;
       background-color: white;
+      margin: 0 auto;
+      padding: 50px;
    }
    .gammer-content {
-      max-width: 600px;
+      max-width: 100%;
       margin: 0 auto;
       text-align: center;
   }
@@ -323,4 +336,4 @@ ul li a{
    margin: 0 auto;
    align-items: center;
   }
-}
+   }
