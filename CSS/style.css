@@ -169,6 +169,7 @@ ul li a{
    color: #534C64;
    font-weight: 500;
    font-size: 1.5rem;
+   margin-top: 2em;
 }
 .gammer-content .purpose-div span{
    font-size: 32px;
@@ -195,9 +196,6 @@ ul li a{
    text-align: center;
 }
 .videos-container{
-   /* margin-top: 50px;
-   margin-left: 240px;
-   margin-right: 240px; */
    display: flex;
    justify-content: center;
    gap: 20px;
@@ -212,35 +210,6 @@ ul li a{
 .video p{
    margin: 10px;
 }
-/* .overlay {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(0, 0, 0, 0.7);
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   opacity: 0;
-   transition: opacity 0.3s ease;
- }
- .overlay:hover {
-   opacity: 1;
- }
-
- .play-icon {
-   font-size: 40px;
-   color: #fff;
- }
-
- .watch-now {
-   color: #fff;
-   margin-top: 10px;
- }
- */
-
 
  /* Playing Game section */
  .playing-section{
@@ -286,18 +255,17 @@ ul li a{
 .types-of-games{
    display: grid;
    grid-template-columns: repeat(5, 1fr);
-   gap: 30px;
+   gap: 1em;
    align-items: center;
    margin: 0 auto;
    padding: 0px 200px;
 }
 .games{
    width: 281px;
-   height: 80px;
+   height: auto;
    display: flex;
    align-items: center;
    gap: 1.5em;
-   border-radius: 50px;
    padding: 0px 10px;
 }
 .games:hover{
@@ -427,10 +395,13 @@ footer{
       margin-left: -80%;
    
    }
+   .multiple-games{
+      margin-bottom: 100px;
+   }
    .types-of-games{
       grid-template-columns: repeat(3, 1fr);
       align-items: center;
-      padding: 0px 10px;
+      padding: 0 1em;
       margin: 0 auto;
    }
    .games{
@@ -438,29 +409,35 @@ footer{
       height: auto;
       gap: 10px;
       border-radius: 50px;
-      /* padding: 10px; */
-      /* margin: 0 20px;
-      align-items: center; */
+
    }
    .games img {
       width: 40px;
       height: 40px;
    
    }
+   .games:hover{
+      border-radius: 50px;
+      border: 1.5px solid var(--Linear, #FF42A5);
+      padding-left: 5px;
+      padding-right: 3em;
+
+   }
+      
    .footer{
       width: 100%;
       height: auto;
    }
    .footer-content{
-      padding: 50px 25px;
+      padding: 4em 1.5em;
       margin: 0 auto
       
    }
    .f-grid ul{
       display: grid;
       grid-template-columns: repeat(3, 2fr);
-      gap: 20px;
-      margin-bottom: 50px;
+      gap: 1em;
+      margin-bottom: 2em;
       
    }
    .f-grid ul li{
@@ -470,22 +447,22 @@ footer{
    .f-items{
       margin: 10px;
    }
+   .footer-icons{
+      padding: 0 3em;
+   }
    .term-condition ul{
       display: grid;
       grid-template-columns: repeat(2, 2fr);
-      gap: 10px;
-      margin: 50px;
-   }
+      gap: 1em;
+      align-items: center;
+      justify-content: center;   }
    .copy-right{
       max-width: 300px;
       margin: 0 auto;
       text-align: center;
       font-size: 16px;
    }
-   footer{
-      margin-top: 100px;
-   }
-   
+
    }
    
    
@@ -496,7 +473,7 @@ footer{
 
   
 
-/* Tablet Devices */
+/* Tablet Devices
 @media screen and (min-width: 576px) and ( max-width:992px) {
    nav{
       flex-direction: column;
@@ -534,4 +511,4 @@ footer{
    margin: 0 auto;
    align-items: center;
   }
-   }
+   } */
